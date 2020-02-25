@@ -1,0 +1,88 @@
+body {
+	background-color: #B9F4B3;
+	color: #13522A;
+	font-family: gt-eesti, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+	width: 700px;
+    margin: 40px auto;
+    font-weight: 300;
+}
+
+h2 {
+	color: #13522A;
+}
+h3{
+	position: all;
+}
+
+div {
+    padding: 20px;
+    margin: 1px;
+    border:2px solid #13522A;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    background-color: #F9FAFA;
+}
+#pdp {
+  width:120px;
+}
+
+a {
+	text-decoration: none;
+	color: #13522A;
+	font-family: gt-eesti, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 700;
+}
+a:hover {
+	color: #13522A;
+}
+
+.btn {
+	background-color: #13522A;
+	width: 170px;
+	margin-left: auto;
+    margin-right: auto;
+    color: #13522A;
+	border-radius: 40px 40px 40px 40px;
+}
+#title {
+	letter-spacing: 5px;
+	font-weight: 700;
+	font-family: cursive, serif;
+	color: #13522A;
+	text-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+
+.menu nav
+{
+  background:inherit;
+  font-size:20px;
+  font-weight:bold;
+  height:0;
+  overflow:hidden;
+  text-transform:uppercase;
+  transition:height .2s;
+}
+
+.menu nav > *
+{
+  display:block;
+  letter-spacing:1px;
+  line-height:2.5;
+  padding:0 20px;
+  width:100%;
+}
+
+.menu nav input
+{
+  background:#111;
+  border:none;
+}
